@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Basics</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>JavaScript Basics Example</h1>
+    <p>Enter a number:</p>
+    <input type="number" id="numberInput" placeholder="Enter a number">
+    <button onclick="processInput()">Submit</button>
+    <p id="output"></p>
+
+    <!-- Art 2: JavaScript Functions — The Heart of Reusability -->
+    <section>
+        <h2>Art 2: JavaScript Functions — The Heart of Reusability</h2>
+        <p>Functions are your best friends in programming. Below are a few custom functions that take inputs, process them, and return or display results. You’ll also see examples for common tasks like calculating totals, formatting strings, and toggling content.</p>
+        
+        <p><strong>Total Calculation Example:</strong></p>
+        <input type="number" id="price" placeholder="Price">
+        <input type="number" id="quantity" placeholder="Quantity">
+        <button onclick="showTotal()">Calculate Total</button>
+        <p id="totalOutput"></p>
+        
+        <p><strong>String Formatting Example:</strong></p>
+        <input type="text" id="nameInput" placeholder="Enter your name">
+        <button onclick="showGreeting()">Show Greeting</button>
+        <p id="greetingOutput"></p>
+
+        <p><strong>Toggle Content Example:</strong></p>
+        <button onclick="toggleVisibility()">Toggle Message</button>
+        <p id="toggleMessage" style="display:none;">You found the hidden message! 🎉</p>
+    </section>
+
+    <!-- Part 3: JavaScript Loops — Embrace the Power of Repetition -->
+    <section>
+        <h2>Part 3: JavaScript Loops — Embrace the Power of Repetition</h2>
+        <p>Use loops to solve repetitive tasks like iterating through arrays, generating dynamic content, or simulating simple countdowns or animations.</p>
+        
+        <p><strong>Array Iteration Example:</strong></p>
+        <button onclick="displayArrayItems()">Display Array Items</button>
+        <ul id="arrayOutput"></ul>
+
+        <p><strong>Countdown Example:</strong></p>
+        <button onclick="startCountdown()">Start Countdown</button>
+        <p id="countdownOutput"></p>
+    </section>
+
+    <!-- Mastering the DOM with JavaScript -->
+    <section>
+        <h2>Mastering the DOM with JavaScript</h2>
+        <p>Use JavaScript to select elements, respond to user actions, and dynamically update the content of your web page.</p>
+        
+        <p><strong>Change Text Example:</strong></p>
+        <button onclick="changeText()">Change Text</button>
+        <p id="textChanging">This text will change.</p>
+
+        <p><strong>Toggle Class Example:</strong></p>
+        <button onclick="toggleClass()">Toggle Highlight</button>
+        <p id="classToggle">This text will be highlighted.</p>
+
+        <p><strong>Create Element Example:</strong></p>
+        <button onclick="addElement()">Add Element</button>
+        <div id="elementContainer"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
